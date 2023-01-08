@@ -3,7 +3,8 @@ package pt.visualnuts;
 public class VisualNuts {
 
     public static void main(String[] args) {
-        for (int i = 0; i < 100; i++) {
+        int inputNumber = 1000;
+        for (int i = 1; i <= inputNumber; i++) {
             System.out.println(execute(i));
         }
     }
@@ -12,8 +13,7 @@ public class VisualNuts {
      * A modified version of the traditional FizzBuzz problem made for VisualNuts coding test.
      * One of my favorites for TDD practice.
      *
-     * This class has a full code coverage at:
-     * @see pt.visualnuts.VisualNutsTest.java
+     * This class has a full code coverage at {@link pt.visualnuts.VisualNutsTest}
      *
      * @param input
      * @return
