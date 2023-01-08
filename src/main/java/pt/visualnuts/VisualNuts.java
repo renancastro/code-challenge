@@ -12,6 +12,9 @@ public class VisualNuts {
      * A modified version of the traditional FizzBuzz problem made for VisualNuts coding test.
      * One of my favorites for TDD practice.
      *
+     * This class has a full code coverage at:
+     * @see pt.visualnuts.VisualNutsTest.java
+     *
      * @param input
      * @return
      */
